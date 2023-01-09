@@ -18,7 +18,7 @@ hb = 'haruka_bot.cli.__main__:main'
 
 [tool.poetry.dependencies]
 python = "^3.8"
-packaging = "^20.9"
+packaging = ">=20.9,<24.0"
 nonebot-plugin-apscheduler = "^0.1.2"
 pydantic = "^1.8.2"
 rsa = "^4.7.2"
