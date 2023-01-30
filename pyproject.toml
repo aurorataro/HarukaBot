@@ -28,7 +28,7 @@ httpx = "^0.18.2"
 nonebot-adapter-cqhttp = "^2.0.0-alpha.15"
 nonebot2 = "^2.0.0-alpha.15"
 pillow = "^8.2.0"
-tortoise-orm = {extras = ["asyncpg"], version = "^0.17.3"}
+tortoise-orm = {extras = ["asyncpg"], version = ">=0.17.3,<0.20.0"}
 playwright = "^1.15.0"
 appdirs = "^1.4.4"
 bilireq = {version = "^0.1.0-alpha.0", extras = ["qrcode"]}
